@@ -1,0 +1,72 @@
+<div class="navbar">
+    <div class="logo">
+        <img src="../assets/sashumi.png" alt="">
+        <p>sushima</p>
+    </div>
+        <div class="lists">
+            <li>About</li>
+            <li>Services</li>
+            <li>Menu</li>
+            <li>Blog</li>
+        </div>
+        <div class="order-online">
+            <button>order online</button>
+        </div>
+</div>
+<div class="landing-page">
+    <h1><span>f</span>eel the sushi <br> of <span>j</span>apan</h1>
+    <p>It is a long established fact that a reader will be distracted by <br> the readable content of a page when looking at its layout. <br> The point of using Lorem Ipsum is that it has packages.</p>
+    <div class="place-order">
+        <button>place your order</button>
+        <div class="dial">
+            <fa-icon [icon]="faPhone" ></fa-icon>
+            <span>+25490507703</span>
+        </div>
+        <div class="food-image">
+            <img src="../assets/nigiri.png" alt="">
+        </div>
+    </div>
+    <div class="food-categories">
+        <h2 class="title">deliciuos </h2>
+        <p>food categories</p>
+        <div class="categories">
+                <div class="category">
+                <img src="../assets/kiro sushi.png" alt="">
+                <h2>Kiro Sushi</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable.</p>
+            </div>
+            <div class="category">
+                <img src="../assets/ainu sushi.png" alt="">
+                <h2>Ainu Sushi</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable.</p>
+            </div>
+            <div class="category">
+                <img src="../assets/uramaki.png" alt="">
+                <h2>Uramaki</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable.</p>
+            </div>
+        </div>
+    </div>
+    <div class="menu-section">
+        <h3 class="head">our menu</h3>
+        <p>discover food menu</p>
+        <div class="the-menus">
+            <div class="menu" *ngFor="let menu of menus">
+                <img [src]="menu.image" alt="">
+                <h3>{{menu.title}}</h3>
+                <p [innerHTML]="menu.text"></p>
+                <p class="amount">{{menu.amount}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="more-btn">
+        <button>view more</button>
+    </div>
+    <div class="watch-recipe">
+        <h4>watch a recipe</h4>
+        <p> <span>j</span>apanese food in your town</p>
+    </div>
+    <div class="media">
+        <video src="../videos/showfood.mp4" controls ></video>
+    </div>
+</div>
