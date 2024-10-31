@@ -2,11 +2,12 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [FontAwesomeModule, CommonModule],
+  imports: [FontAwesomeModule, CommonModule,FooterComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
@@ -22,8 +23,9 @@ export class HomeComponent {
     {image:'../assets/futomaki.png',title:'futomaki',text:'It is a long established fact that <br> a reader will be distracted by read.',amount:'43'},
     {image:'../assets/sushi.png',title:'temaki',text:'It is a long established fact that <br> a reader will be distracted by read.',amount:'35'},
   ]
-
+  
 }
+
 
 
 

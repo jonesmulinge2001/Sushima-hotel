@@ -258,7 +258,7 @@
 .landing-page > .more-btn > button:hover{
     background: #ef4444;
 }
-.landing-page > .watch-recipe{
+/* .landing-page > .watch-recipe{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     text-align: center;
@@ -294,4 +294,4 @@
   border: none;
   border-radius: 20px;
   margin-bottom: 4rem;
-}
+} */
