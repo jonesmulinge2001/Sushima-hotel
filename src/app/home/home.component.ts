@@ -24,6 +24,23 @@ export class HomeComponent {
     {image:'../assets/sushi.png',title:'temaki',text:'It is a long established fact that <br> a reader will be distracted by read.',amount:'35'},
   ]
   
+  deliveries = [
+    { image: '../assets/healthy.jpeg', title: 'healthy food', paragraph: ' It is a long established fact that a reader will be distracte.' },
+    { image: '../assets/best chef.jpeg', title: 'best chef', paragraph: ' It is a long established fact that a reader will be distracte.' },
+    { image: '../assets/fast delivery.jpeg', title:'fast delivery', paragraph:' It is a long established fact that a reader will be distracte.'},
+  ]
+
+  items = [
+    { image: '../assets/sashumi.png', title:'sashimi sushi', text: 'Ingredients: Potatoes, Vegetable Oil <br> (canola Oil, Corn Oil, Soybean <br> Oil, Hydrogenated Soybean Oil, <br> Natural Beef Flavor wheat And Milk <br> Derivatives, Dextrose, <br> Sodium Acid Pyrophosphate (maintain Color)' },
+    { image: '../assets/uramaki.png', title:'uramaki sushi', text: 'Ingredients: Potatoes, Vegetable Oil <br> (canola Oil, Corn Oil, Soybean <br> Oil, Hydrogenated Soybean Oil, <br> Natural Beef Flavor wheat And Milk <br> Derivatives, Dextrose, <br> Sodium Acid Pyrophosphate (maintain Color)' },
+    {image:'../assets/nigiri sushi.png', title:'nigiri sushi', text:'Ingredients: Potatoes, Vegetable Oil <br> (canola Oil, Corn Oil, Soybean <br> Oil, Hydrogenated Soybean Oil, <br> Natural Beef Flavor wheat And Milk <br> Derivatives, Dextrose, <br> Sodium Acid Pyrophosphate (maintain Color)'}
+  ]
+
+  recipes = [
+    {image:'../assets/recipe1.png',title:'Fat Rolled Sushi With <br> Vegetables',paragraph:'Protein aroma first-class dish sour cookie. The course meal is lovely.',button:'<button>read more<button>'},
+    {image:'../assets/recipe2.png',title:'Fat Rolled Sushi With <br> Vegetables',paragraph:'Protein aroma first-class dish sour cookie. The course meal is lovely.',button:'<button>read more<button>'},
+    {image:'../assets/recipe3.png',title:'Fat Rolled Sushi With <br> Vegetables',paragraph:'Protein aroma first-class dish sour cookie. The course meal is lovely.',button:'<button>read more<button>'}
+  ]
 }
 
 

@@ -61,13 +61,71 @@
     </div>
     <div class="more-btn">
         <button>view more</button>
-    <!-- </div>
-    <div class="watch-recipe">
+    </div>
+    <div class="headlines">
+        <h2>tasty &amp; fresh</h2>
+        <h3><span>o</span>ur service means satisfy</h3>
+    </div>
+    <div class="deliveries">
+        <div class="delivery" *ngFor="let delivery of deliveries" >
+            <img [src]="delivery.image" alt="">
+            <h2>{{delivery.title}}</h2>
+            <p>{{delivery.paragraph}}</p>
+        </div>
+    </div>
+    <div class="dishes">
+        <p>popular dishes</p>
+        <h1><span>o</span>ur exclusive items</h1>
+    </div>
+    <div class="items" *ngFor="let item of items">
+        <img [src]="item.image" alt="">
+        <div class="extra-info">
+            <h1>{{item.title}}</h1>
+            <p [innerHTML]="item.text"></p>
+        </div>
+    </div>
+    <div class="reservation">
+        <img src="../assets/sashumi.png" alt="">
+        <div class="reserve">
+            <p>our reservation</p>
+            <h1>reservation</h1>
+            <input type="text" placeholder="enter your name"> <br>
+            <input type="number" placeholder="enter your phone number"><br>
+            <input type="number" min="1" placeholder="enter number of people"><br>
+            <input type="date" placeholder="dd/mm/yyyy">
+            <button>book a table</button>
+        </div>
+    </div>
+    <div class="testimonials">
+        <div class="image"></div>
+        <img src="../assets/testimonial.png" alt="">
+        <div class="testimony">
+            <h1>testimonials</h1>
+            <h3>Our lovely customer <br>loves our food</h3>
+            <p>“ There are many variations of passages of Lorem <br> Ipsum available, but the majority have suffered <br> alteration in some form, by injected humour, <br> or randomised words which don't look even slightly <br> believable. If you are going to use a passage.”</p>
+            <img src="../assets/stars.png" alt="">
+            <p class="name">jane wilson</p>
+        </div>
+    </div>
+    <div class="desc">
+        <h1>recipe</h1>
+        <p>Featured recipes</p>
+    </div>
+    <div class="recipes">
+        <div class="recipe" *ngFor="let recipe of recipes" >
+            <img [src]="recipe.image" alt="">
+            <h2 [innerHTML]="recipe.title"></h2>
+            <p [innerHTML]="recipe.paragraph"></p>
+            <h3 [innerHTML]="recipe.button"></h3>
+        </div>
+    </div>
+    <!-- <div class="watch-recipe">
         <h4>watch a recipe</h4>
         <p> <span>j</span>apanese food in your town</p>
     </div>
     <div class="media">
         <video src="../videos/showfood.mp4" controls ></video>
     </div>
+    -->
 </div>
-<app-footer></app-footer> -->
+<app-footer></app-footer> 
